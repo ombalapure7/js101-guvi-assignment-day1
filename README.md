@@ -55,12 +55,21 @@ Every HTTP transfer contains headers that describe the sent resource and its pro
 - **HTTP/2**
   - To deal with this bottleneck, HTTP/2 uses HPACK compression to decrease the average size of the header. This compression program encodes the header metadata using Huffman       coding, which significantly reduces its size as a result.
   - In addition, HPACK keeps track of previously transferred header values and further compresses them as per a dynamically modified index shared between client and server.
-  
+
+
 <hr />
 
 
+# Object internal representation in Javascript
+An object, is a reference data type. Objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
 
+Loosely speaking, objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
 
+For Eg. If your object is a student, it will have properties like name, age, address, id, etc and methods like updateAddress, updateName, etc.
+
+## 1. Syntax
+   - Objects are variables too. But objects can contain many values. The following code assigns many values (Mercedes, C-class, White and soo on) to a variable named Car:
+     > var car = {Make: “Mercedes”, Model: “C-Class”, Color: “White”, Fuel: Diesel, Weight: “850kg”, Mileage: “8Kmpl”, Rating: 4.5};
 
 
 
