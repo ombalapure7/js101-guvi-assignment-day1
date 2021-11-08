@@ -62,7 +62,7 @@ Every HTTP transfer contains headers that describe the sent resource and its pro
 <br />
 <br />
 
-# Object internal representation in Javascript
+# Object's internal representation in Javascript
 An object, is a reference data type. Objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
 
 Loosely speaking, objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
