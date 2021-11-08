@@ -6,7 +6,7 @@ HTTP 1.1 came out in 1997 and in 2015 HTTP 2 was released which offered several 
 
 **HTTP/2 does not modify the application semantics of HTTP in any way. All the core concepts, such as HTTP methods, status codes, URIs, and header fields, remain in place. Instead, HTTP/2 modifies how the data is formatted (framed) and transported between the client and server.**
 
-Below are the key differences b/w both the protocol version: 
+> Below are the key differences b/w both the protocol version: 
 
 ### 1. Delivery Model:
 HTTP/1.1 sends messages as plain text, and HTTP/2 encodes them into binary data and arranged them carefully. This implies that HTTP/2 can have various delivery models.
