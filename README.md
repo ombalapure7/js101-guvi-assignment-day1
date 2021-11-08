@@ -74,7 +74,7 @@ For Eg. If your object is a student, it will have properties like name, age, add
      > var car = {Make: “Mercedes”, Model: “C-Class”, Color: “White”, Fuel: Diesel, Weight: “850kg”, Mileage: “8Kmpl”, Rating: 4.5};
      
 ## 2. Properties
-   - The name:value pair in an object are called properties.
+   - The __name:value__ pair in an object are called properties.
    - The object properties can be different primitive values, other objects and functions.
    - Properties can usually be changed, added, and deleted, but some are read only.
       - Adding property
