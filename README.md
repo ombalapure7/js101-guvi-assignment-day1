@@ -56,7 +56,7 @@ Every HTTP transfer contains headers that describe the sent resource and its pro
   - To deal with this bottleneck, HTTP/2 uses HPACK compression to decrease the average size of the header. This compression program encodes the header metadata using Huffman       coding, which significantly reduces its size as a result.
   - In addition, HPACK keeps track of previously transferred header values and further compresses them as per a dynamically modified index shared between client and server.
   
-
+<hr />
 
 
 
