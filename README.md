@@ -8,7 +8,11 @@ HTTP 1.1 came out in 1997 and in 2015 HTTP 2 was released which offered several 
 
 Below are the key differences b/w both the protocol version: 
 
-|                         | First Header  | Second Header |
-| ----------              | ------------- | ------------- |
-| Delivery Model          | Content Cell  | Content Cell  |
-|                         | Content Cell  | Content Cell  |
+### 1. Delivery Model:
+HTTP/1.1 sends messages as plain text, and HTTP/2 encodes them into binary data and arranged them carefully. This implies that HTTP/2 can have various delivery models.
+Most of the time, a client's initial response in return for an HTTP GET request is not the fully-loaded page. Fetching additional resources from the server requires that the client send repeated requests, break or form the TCP connection repeatedly for them.
+
+- HTTP/1.1
+  - Addresses this problem by creating a persistent connection between server and client. Until explicitly closed, this connection will remain open. So, the client can use one TCP     connection throughout the communication w/o interrupting it again and again.
+    This approach surely ensures good performance, but it also is problematic.
+  - For example – If a request at the queue head cannot retrieve its required resources, it can block all requests behind it. This phenomenon is called head-of-line blocking (HOL     blocking).
