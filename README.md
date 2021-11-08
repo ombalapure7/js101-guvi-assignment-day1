@@ -56,9 +56,11 @@ Every HTTP transfer contains headers that describe the sent resource and its pro
   - To deal with this bottleneck, HTTP/2 uses HPACK compression to decrease the average size of the header. This compression program encodes the header metadata using Huffman       coding, which significantly reduces its size as a result.
   - In addition, HPACK keeps track of previously transferred header values and further compresses them as per a dynamically modified index shared between client and server.
 
-
+<br />
+<br />
 <hr />
-
+<br />
+<br />
 
 # Object internal representation in Javascript
 An object, is a reference data type. Objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
@@ -85,11 +87,11 @@ For Eg. If your object is a student, it will have properties like name, age, add
         > objectName[expression]    -------->  x = "Make"; Car[x]
       
 ## 3. Object methods
-    - An object method is an object property containing a function definition.
-    - Let’s assume to start the car there will be a mechanical functionality.
+  - An object method is an object property containing a function definition.
+  - Let’s assume to start the car there will be a mechanical functionality.
       > function(){ return ignition.on  }
-    - And similarly to stop/brake/headlights on & off, etc.
-    - So, simple definition for Javascript __Object Methods__ is “Methods are actions that can be performed on objects.”.
+  - And similarly to stop/brake/headlights on & off, etc.
+  - So, simple definition for Javascript __Object Methods__ is “Methods are actions that can be performed on objects.”.
    
 
 
