@@ -6,7 +6,7 @@ HTTP 1.1 came out in 1997 and in 2015 HTTP 2 was released which offered several 
 
 **HTTP/2 does not modify the application semantics of HTTP in any way. All the core concepts, such as HTTP methods, status codes, URIs, and header fields, remain in place. Instead, HTTP/2 modifies how the data is formatted (framed) and transported between the client and server.**
 
-> Below are the key differences b/w both the protocol version: 
+### Below are the key differences b/w both the protocol version: 
 
 ### 1. Delivery Model:
 HTTP/1.1 sends messages as plain text, and HTTP/2 encodes them into binary data and arranged them carefully. This implies that HTTP/2 can have various delivery models.
@@ -70,11 +70,27 @@ For Eg. If your object is a student, it will have properties like name, age, add
 ## 1. Syntax
    - Objects are variables too. But objects can contain many values. The following code assigns many values (Mercedes, C-class, White and soo on) to a variable named Car:
      > var car = {Make: “Mercedes”, Model: “C-Class”, Color: “White”, Fuel: Diesel, Weight: “850kg”, Mileage: “8Kmpl”, Rating: 4.5};
-
-
-
-
-
+     
+## 2. Properties
+   - The name:value pair in an object are called properties.
+   - The object properties can be different primitive values, other objects and functions.
+   - Properties can usually be changed, added, and deleted, but some are read only.
+      - Adding property
+        >  ObjectName.ObjectProperty = propertyValue;
+      - Deleting property
+        >  delete ObjectName.ObjectProperty;
+      - Access a property from an object is:
+        > objectName.property       -------->  Car.Make
+        > objectName["property”]    -------->  Car["Make"]
+        > objectName[expression]    -------->  x = "Make"; Car[x]
+      
+## 3. Object methods
+    - An object method is an object property containing a function definition.
+    - Let’s assume to start the car there will be a mechanical functionality.
+      > function(){ return ignition.on  }
+    - And similarly to stop/brake/headlights on & off, etc.
+    - So, simple definition for Javascript __Object Methods__ is “Methods are actions that can be performed on objects.”.
+   
 
 
 
