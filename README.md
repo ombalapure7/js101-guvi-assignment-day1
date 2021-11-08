@@ -5,3 +5,10 @@ The Hypertext Transfer Protocol, or HTTP, is an application protocol that has be
 HTTP 1.1 came out in 1997 and in 2015 HTTP 2 was released which offered several methods to decrease latency, especially when dealing with mobile platforms and server-intensive graphics and videos, it does it by compression of HTTP header fields, and add support for stream prioritization to minimize page load latency. 
 
 **HTTP/2 does not modify the application semantics of HTTP in any way. All the core concepts, such as HTTP methods, status codes, URIs, and header fields, remain in place. Instead, HTTP/2 modifies how the data is formatted (framed) and transported between the client and server.**
+
+Below are the key differences b/w both the protocol version: 
+
+|                         | First Header  | Second Header |
+| ----------              | ------------- | ------------- |
+| Delivery Model          | Content Cell  | Content Cell  |
+|                         | Content Cell  | Content Cell  |
