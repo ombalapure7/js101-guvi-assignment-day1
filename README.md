@@ -8,7 +8,7 @@ HTTP 1.1 came out in 1997 and in 2015 HTTP 2 was released which offered several 
 
 ### Below are the key differences b/w both the protocol version: 
 
-### 1. Delivery Model:
+### 1. Delivery Model
 HTTP/1.1 sends messages as plain text, and HTTP/2 encodes them into binary data and arranged them carefully. This implies that HTTP/2 can have various delivery models.
 Most of the time, a client's initial response in return for an HTTP GET request is not the fully-loaded page. Fetching additional resources from the server requires that the client send repeated requests, break or form the TCP connection repeatedly for them.
 
