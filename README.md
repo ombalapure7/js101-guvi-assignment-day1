@@ -82,9 +82,9 @@ For Eg. If your object is a student, it will have properties like name, age, add
       - Deleting property
         >  delete ObjectName.ObjectProperty;
       - Access a property from an object is:
-        > objectName.property       -------->  Car.Make
-        > objectName["property”]    -------->  Car["Make"]
-        > objectName[expression]    -------->  x = "Make"; Car[x]
+        - > objectName.property       -------->  Car.Make
+        - > objectName["property”]    -------->  Car["Make"]
+        - > objectName[expression]    -------->  x = "Make"; Car[x]
       
 ## 3. Object methods
   - An object method is an object property containing a function definition.
